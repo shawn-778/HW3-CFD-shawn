@@ -17,3 +17,4 @@ def diff_2(u, x_0, delta_x):
     u_x = (-11 * fun_value[0] + 18 * fun_value[1] - 9 * fun_value[2] + 2 * fun_value[3]) / (6 * delta_x)
     u_xx = (2 * fun_value[0] - 5 * fun_value[1] + 4 * fun_value[2] - 1 * fun_value[3]) / delta_x ** 2
     return u_x, u_xx
+x = sp.symbols('x')
